@@ -1,8 +1,8 @@
-import { ScrollIcon, TimerIcon } from "@phosphor-icons/react";
-import { HeaderContainer } from "./styles";
+import { ScrollIcon, TimerIcon } from '@phosphor-icons/react'
+import { HeaderContainer } from './styles'
 
-import { NavLink } from "react-router-dom";
-import logoIgnite from "../../assets/logo-ignite.svg";
+import { NavLink } from 'react-router-dom'
+import logoIgnite from '../../assets/logo-ignite.svg'
 
 export function Header() {
   return (
@@ -17,5 +17,5 @@ export function Header() {
         </NavLink>
       </nav>
     </HeaderContainer>
-  );
+  )
 }
